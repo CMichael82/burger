@@ -1,0 +1,26 @@
+.container{
+	margin: 50px auto;
+}
+
+h1 {
+	color: red;
+}
+
+h1, h5, h6 {
+	text-align: center;
+}
+
+form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#burgerIcon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	height: 25%;
+}
