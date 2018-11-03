@@ -1,9 +1,7 @@
-// Inside burger.js, import orm.js into burger.js
+//import the orm file//
 var orm = require("../config/orm.js");
 
-// Also inside burger.js, create the code that will call the ORM functions using burger specific input for the ORM.
-// Export at the end of the burger.js file.
-
+//create a model to select/add/update the mysql burgers table//
 var burger = {
 	selectAll: function (cb){
 		orm.selectAll("burgers", function(res){

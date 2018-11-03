@@ -1,4 +1,6 @@
-.container{
+.container {
+	background-color: #cfebea;
+	border: 5px solid #87CDCA;
 	margin: 50px auto;
 }
 
@@ -17,6 +19,11 @@ form {
 	width: 50%;
 }
 
+li, span {
+	list-style-type: none;
+	margin: 5px;
+}
+
 #burgerIcon{
 	display: block;
 	margin-left: auto;
@@ -24,3 +31,19 @@ form {
 	width: 25%;
 	height: 25%;
 }
+
+.devour-it,.isDevoured{
+	color: red;
+	font-size: 12px;
+}
+
+.devouredList {
+	margin-right: 50px;
+	text-align: right;
+}
+
+.id {
+	border: 1px solid darkgray;
+	background-color: lightgray;
+}
+
